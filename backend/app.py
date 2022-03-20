@@ -14,7 +14,7 @@ def hello():
 
 @app.route('/upload',methods=['GET','POST'])
 def upload():
-    print(request.json['imageBase64'])
+    # print(request.json['imageBase64'])
     return "Worked Finally!!!"
 
 if __name__ == "__main__":
